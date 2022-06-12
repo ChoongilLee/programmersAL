@@ -1,4 +1,4 @@
-
+#문제를 너무 어렵게 생각했다.
 def solution(s):
     length_s = len(s)
     answer = length_s
