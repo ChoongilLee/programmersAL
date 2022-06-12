@@ -1,7 +1,8 @@
 def solution(s):
     length_s = len(s)
     answer = length_s
-    for i in range(1, length_s//2+1):
+    i =1
+    while i < length_s//2+1:
         n= i
         k = 0
         h = 0
@@ -16,9 +17,10 @@ def solution(s):
             n += i
         t += k
         ans = length_s -i*h + t
-        print(h,t)
+        print(i,h,t)
         if answer > ans:
             answer = ans
+        i +=1
     return answer
 
 test = input()
