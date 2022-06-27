@@ -3,7 +3,7 @@ def solution(s):
     answer = length_s
     i =1
     while i < length_s//2+1:
-        n= i
+        n= i # しぉいしぉいし
         k = 0
         h = 0
         t1 = 0

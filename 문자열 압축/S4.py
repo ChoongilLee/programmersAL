@@ -9,7 +9,7 @@ def solution(s):
         n= i
         h=0
         out = 0
-        ss = ''
+        ss = ''#¤±¤¤¤·¤©
         t=1
         k=0
         while n < length_s-i+1:
